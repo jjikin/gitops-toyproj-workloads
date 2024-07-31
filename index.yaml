@@ -34,6 +34,6 @@ entries:
     - https://jjikin.com/gitops-toyproj-workloads
     type: application
     urls:
-    - opentelemetry-demo-0.32.5.tgz
+    - http://jjikin.com/gitops-toyproj-workloads/opentelemetry-demo-0.32.5.tgz
     version: 0.32.5
 generated: "2024-07-31T05:19:22.926784487Z"
