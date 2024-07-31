@@ -3,7 +3,7 @@ entries:
   opentelemetry-demo:
   - apiVersion: v2
     appVersion: 1.11.1
-    created: "2024-07-31T05:19:23.030443133Z"
+    created: "2024-07-31T06:52:05.911678098Z"
     dependencies:
     - condition: opentelemetry-collector.enabled
       name: opentelemetry-collector
@@ -26,14 +26,14 @@ entries:
       repository: https://opensearch-project.github.io/helm-charts
       version: 2.21.0
     description: opentelemetry demo helm chart
-    digest: 280508952178dea2a2abdec6696c792bf040a1d2d612739f077a45cfdd531745
-    home: https://opentelemetry.io/
+    digest: 4c55c2ba4563159a82885dd74edbdecb1023434a6284294a9fd7772827713eec
+    home: https://jjikin.com/
     icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
     name: opentelemetry-demo
     sources:
     - https://jjikin.com/gitops-toyproj-workloads
     type: application
     urls:
-    - http://jjikin.com/gitops-toyproj-workloads/opentelemetry-demo-0.32.5.tgz
+    - opentelemetry-demo-0.32.5.tgz
     version: 0.32.5
-generated: "2024-07-31T05:19:22.926784487Z"
+generated: "2024-07-31T06:52:05.829253394Z"
