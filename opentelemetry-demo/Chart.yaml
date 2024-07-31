@@ -3,7 +3,7 @@ type: application
 name: opentelemetry-demo
 version: 0.32.5
 description: opentelemetry demo helm chart
-home: https://opentelemetry.io/
+home: https://jjikin.com/
 sources:
   - https://jjikin.com/gitops-toyproj-workloads
 icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
