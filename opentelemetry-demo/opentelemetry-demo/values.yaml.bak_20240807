@@ -418,7 +418,7 @@ components:
         memory: 50Mi
 
   loadgenerator:
-    enabled: false
+    enabled: true
     useDefault:
       env: true
     service:
@@ -724,7 +724,7 @@ opentelemetry-collector:
           exporters: [opensearch, debug]
 
 jaeger:
-  enabled: false
+  enabled: true
   provisionDataStore:
     cassandra: false
   allInOne:
@@ -751,7 +751,7 @@ jaeger:
     enabled: false
 
 prometheus:
-  enabled: false
+  enabled: true
   alertmanager:
     enabled: false
   configmapReload:
@@ -797,7 +797,7 @@ prometheus:
               regex: true
 
 grafana:
-  enabled: false
+  enabled: true
   grafana.ini:
     auth:
       disable_login_form: true
@@ -870,7 +870,7 @@ grafana:
       memory: 150Mi
 
 opensearch:
-  enabled: false
+  enabled: true
   fullnameOverride: otel-demo-opensearch
   clusterName: demo-cluster
   nodeGroup: otel-demo
