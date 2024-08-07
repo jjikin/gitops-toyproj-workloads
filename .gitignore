@@ -1,0 +1,29 @@
+# Private keys
+*.key
+*.pem
+*.p12
+*.crt
+*.pfx
+
+# Environment files
+.env
+
+# AWS credentials
+.aws/
+*.aws
+*.access
+.aws/credentials
+.aws/config
+
+# Configuration directories and files
+config/
+*.config
+
+# Docker credentials
+.docker/config.json
+
+# Secrets and sensitive information directories
+secrets/
+
+# Password files
+*.password
