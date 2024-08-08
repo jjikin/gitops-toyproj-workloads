@@ -13,7 +13,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: argocd.jjikin.com
+  - host: argocd.gitops.jjikin.com
     http:
       paths:
       - path: /
