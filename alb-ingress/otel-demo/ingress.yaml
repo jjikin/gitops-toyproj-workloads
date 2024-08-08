@@ -20,7 +20,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: frontend
+            name: otel-demo-frontend
             port:
               number: 80
 
