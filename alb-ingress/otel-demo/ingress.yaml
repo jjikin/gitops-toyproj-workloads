@@ -23,5 +23,5 @@ spec:
           service:
             name: otel-demo-frontend
             port:
-              number: 80
+              number: 8080
 
