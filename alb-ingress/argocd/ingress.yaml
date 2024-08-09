@@ -8,6 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/group.name: pub-alb-ingress
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":80}]'
+    alb.ingress.kubernetes.io/ssl-redirect: false
 spec:
   ingressClassName: alb
   rules:
